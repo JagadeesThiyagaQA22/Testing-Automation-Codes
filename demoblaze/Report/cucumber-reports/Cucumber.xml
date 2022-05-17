@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="2.121">
+    <testcase classname="Online Shopping Functionality" name="User Login The application" time="1.277">
+        <system-out><![CDATA[Given User Enter The Invalid "valid" Username...............................passed
+When User Enter The Invalid "invalid" Password..............................passed
+Then User Validate the Inavlid Credentials..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping Functionality" name="User Login The application 2" time="0.354">
+        <system-out><![CDATA[Given User Enter The Invalid "invalid" Username.............................passed
+When User Enter The Invalid "valid" Password................................passed
+Then User Validate the Inavlid Credentials..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping Functionality" name="User Login The application 3" time="0.313">
+        <system-out><![CDATA[Given User Enter The Invalid "invalid" Username.............................passed
+When User Enter The Invalid "invalid" Password..............................passed
+Then User Validate the Inavlid Credentials..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping Functionality" name="User Login The Application" time="0">
+        <system-out><![CDATA[Given User Enter the Valid Username.........................................passed
+When User Enter The Valid Password..........................................passed
+Then User Validate The Credentials..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping Functionality" name="HomePage User Views The Products What They Want" time="0.005">
+        <system-out><![CDATA[And User View The Mobile....................................................passed
+And User View The Another Product...........................................passed
+And User Scroll The Page Down...............................................passed
+And User Click The Next Page................................................passed
+And User Click The Previous Page............................................passed
+And User Scroll The Page Up.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping Functionality" name="User Buying The The New Product" time="0.001">
+        <system-out><![CDATA[And User Choose the Product.................................................passed
+And User Click The Add Cart Button..........................................passed
+And User Click The Cart Page................................................passed
+And User Click The Place Order Button.......................................passed
+And User Enter The Order Details............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
