@@ -13,8 +13,8 @@ Scenario- Written Overall Functionality Of Perticular Module
       
 Scenario Outline- Written Overall Functionality Of Perticular Module 
 ( Same Like Scenario but, Using Only for Validation Testing Purpose Of Login Credentials )
-   Given - Described the User Access for Perticular Function,"<username>"
-   When  - Described the User Done Actions,"<password>"
+   Given - Described the User Access for Perticular Function," <username> "
+   When  - Described the User Done Actions," <password> "
    And   - Described the User Done Additional Actions
    Then  - User Validation, 
    But   - User Try to Push Negative Activities.     
@@ -24,4 +24,7 @@ Scenario Outline- Written Overall Functionality Of Perticular Module
   | invalid  | invalid  |
   | valid    | valid    |
   
-
+Background- It is also Scenario, it Executes before Every Scenario.
+  
+# Runner Class
+  
