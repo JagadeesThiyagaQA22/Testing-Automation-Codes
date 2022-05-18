@@ -1,6 +1,6 @@
 package Testing;
 
-public class Test1 {
+public class Find_Second_Big_Num {
 	
 	public static void main(String[] args) {
 		
